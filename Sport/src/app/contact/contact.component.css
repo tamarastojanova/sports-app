@@ -1,0 +1,218 @@
+#contact-page {
+    width: 100vw;
+    height: 110vh;
+    background-color: rgb(221, 221, 221);
+    margin-top: 0.9rem;
+    display: inline-block;
+    position: relative;
+    overflow-y: hidden;
+    
+}
+
+#desen {
+    width: 40vw;
+    height: 95vh;
+    background-color: rgba(18, 110, 73, 0.685);
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    right: 7%;
+    box-shadow: rgba(46, 240, 133, 0.4) 5px 5px, rgba(46, 240, 166, 0.3) 10px 10px, rgba(46, 240, 149, 0.2) 15px 15px, rgba(46, 240, 159, 0.1) 20px 20px, rgba(46, 240, 159, 0.05) 25px 25px;
+}
+
+#levigore {
+    display: inline-block;
+    margin-bottom: 2%;
+    position: relative;
+    right: 95%;
+    bottom: 34rem;
+    max-height: 42vh;
+}
+
+#lev1 {
+    width: 20vw;
+    height: 42vh;
+    max-height: 42vh;
+    display: inline-block;
+    position:relative;
+    right: 3%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#lev1:hover{
+    background-color: rgb(116, 194, 171);
+    border-radius: 10px;
+    transform: scale(1.03);
+}
+#lev2 {
+    width: 20vw;
+    height: 42vh;
+    max-height: 42vh;
+    display: inline-block;
+    background-color: white;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#lev2:hover{
+    background-color: rgb(116, 194, 171);
+    border-radius: 10px;
+    transform: scale(1.03);
+}
+#levidole {
+    position: relative;
+    right: 95%;
+    bottom: 34rem;
+    max-height: 42vh;
+    display: inline-block;
+}
+#lev3 {
+    width: 20vw;
+    height: 42vh;
+    max-height: 42vh;
+    display: inline-block;
+    position:relative;
+    right: 3%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#lev3:hover{
+    background-color: rgb(116, 194, 171);
+    border-radius: 10px;
+    transform: scale(1.03);
+}
+#lev4 {
+    width: 20vw;
+    height: 42vh;
+    max-height: 42vh;
+    display: inline-block;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#lev4:hover{
+    background-color: rgb(116, 194, 171);
+    border-radius: 10px;
+    transform: scale(1.03);
+}
+#lev4:hover h1, #lev3:hover h1, #lev2:hover h1, #lev1:hover h1{
+    color: black;
+    opacity: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#lev1 h1, #lev2 h1, #lev3 h1, #lev4 h1 {
+    text-align: center;
+    font-weight: 500;
+    color: rgb(59, 122, 97);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h2 {
+    padding: 0%;
+}
+
+.contact-form {
+    display: inline-block;
+    position: relative;
+    left: 17%;
+    top: 3%;
+}
+
+#send {
+    position: relative;
+    left: 20%;
+    width: 7rem;
+    background-color: rgb(214, 255, 233);
+    color: rgba(18, 110, 73, 0.685);
+    border: 0px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 2rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact-name, #contact-email {
+    border: 0px solid white;
+    border-radius: 5px;
+    width: 25rem;
+    height: 2rem;
+}
+#contact-message{
+    border: 0px solid white;
+    border-radius: 5px;
+    width: 25rem;
+    height: 13rem;
+}
+
+p {
+    color: rgb(214, 255, 233);
+    padding: 0%;
+    margin: 0%;
+}
+#send:hover{
+    background-color: rgba(96, 255, 191, 0.685);
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #21c790;
+    margin-top: -3%;
+  }
+  
+  body {
+    background-color: #21c790;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 1s ease-out;
+    border-radius: 50%;
+    margin-right: 2%;
+  }
+  
+  .fa:hover {
+    opacity: 0.8;
+    transform: translateY(-0.25rem);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    color: black;
+  }
+  
+  .fa-facebook {
+    background: #9ceccd;
+    color: white;
+  }
+  .fa-twitter {
+    background: #9ceccd;
+    color: white;
+  }
+  .fa-instagram {
+    background: #9ceccd;
+    color: white;
+  }
+  .fa-youtube {
+    background: #9ceccd;
+    color: white;
+  }
+  #logoa {
+    position: relative;
+    top: -83%;
+    left: 80%;
+    width: 180px;
+  }
+.submitMessage{
+    color: white;
+    background-color: #21c790;
+    border-radius: 5px;
+    text-align: center;
+    width: 10rem;
+    margin-right: 25%;
+    margin-bottom: 6%;
+}

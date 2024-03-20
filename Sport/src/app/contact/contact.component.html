@@ -1,0 +1,90 @@
+
+<div id="contact-page">
+    <div id="golem">
+    <div id="desen">
+        <h1 style="text-align: center; color:rgb(214, 255, 233); text-shadow: 0 1px 0 rgb(51, 173, 123), 
+        0 2px 0 #1ab96a,
+        0 3px 0 rgb(70, 189, 133),
+        0 4px 0 #3fc285,
+        0 5px 0 rgb(92, 216, 154),
+        0 6px 1px rgba(0,0,0,.1),
+        0 0 5px rgba(0,0,0,.1),
+        0 1px 3px rgba(0,0,0,.3),
+        0 3px 5px rgba(0,0,0,.2),
+        0 5px 10px rgba(0,0,0,.25),
+        0 10px 10px rgba(0,0,0,.2),
+        0 20px 20px rgba(0,0,0,.15);">CONTACT US RIGHT NOW</h1>
+              <div class="contact-form">
+                  <form [formGroup]="contactForm" class="form-group">
+                  <p>Name</p>
+                  <mat-form-field id="name">
+                    <input matInput formControlName="name" id="contact-name" />
+                    </mat-form-field>
+
+                    <small *ngIf="contactForm.get('name').invalid && contactForm.get('name').touched" style="color: red; "><b> Name is required!</b></small>
+
+                    <p>Email</p>
+                     <mat-form-field id="email">
+                     <input matInput formControlName="email" id="contact-email" />
+                    </mat-form-field>
+                    <small *ngIf="contactForm.get('email').invalid && contactForm.get('email').touched" style="color: red;"> <b> Email is required!</b></small>
+                    <p>Message</p>
+                    <mat-form-field id="message">
+                    <textarea matInput formControlName="message" id="contact-message"></textarea> <br> <br>
+                    </mat-form-field>
+                    <small *ngIf="contactForm.get('message').invalid && contactForm.get('message').touched" style="color: red; "> <b> Message is required!</b></small>
+                    <p *ngIf="isSubmit" class="submitMessage">{{ submitMessage }}</p>
+                    <button type="reset" mat-raised-button [disabled]="contactForm.invalid" (click)="submitData(contactForm.value)" id="send">Send</button>
+                </form>
+                
+              </div>
+
+        <div id="levigore">
+            <div id="lev1">
+                <h1>OUR MAIN OFFICE</h1>
+                <img src="../../assets/img/icon1.png" alt="call-icon" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;  ">
+                 <h2 style="text-align: center; font-size: 0.9rem; max-width: 80%; margin-left: 10%; margin-top: 7%;">Sports Centre, 300 E Pacific Coast Hwy, Hermosa Beach, CA 90254, United States</h2>
+            </div>
+            <div id="lev2">
+                <h1>PHONE NUMBER</h1>
+                <img src="../../assets/img/icon2.png" alt="call-icon" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%; ">
+                <h2 style="text-align: center; font-size: 0.9rem;margin-top: 10%; ">02/2534 519 <br>
+                     +1 (212)456-7890 (Toll free)</h2>
+            </div>
+        </div>
+    <br>
+    <div id="levidole">
+        <div id="lev3">
+            <h1>FAX</h1>
+            <img src="../../assets/img/icon4.png" alt="call-icon" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;">
+                <h2 style="text-align: center; font-size: 0.9rem; margin-top: 12%;">1-234-567-8900</h2>
+        </div>
+        <div id="lev4">
+            <h1>EMAIL</h1>
+            <img src="../../assets/img/icon3.png" alt="call-icon" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;">
+                <h2 style="text-align: center; font-size: 0.9rem; margin-top: 12%; ">sports-centre-official@fitness.com</h2>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+<div class="footer">
+    <h6 style="opacity: 80%; font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 400; position: relative; top: 2.5vh; left: 1vw;">Copyright 2022 © SportsCentre | Developed by Tamara</h6>
+    <div id="logoa">
+    <a href="https://www.facebook.com/anytimefitness" class="fa fa-facebook" style="width: 20px; height: 20px;"> </a>
+    <a href="https://twitter.com/AnytimeFitness" class="fa fa-twitter" style="width: 20px; height: 20px;"></a>
+    <a href="https://www.instagram.com/anytimefitness/" class="fa fa-instagram" style="width: 20px; height: 20px;"></a>
+    <a href="https://www.youtube.com/user/AnytimeFitnessLLC" class="fa fa-youtube" style="width: 20px; height: 20px;"></a> </div>
+  </div>

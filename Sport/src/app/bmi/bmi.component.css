@@ -1,0 +1,157 @@
+#bmi-slika {
+   background: url("../../assets/img/bmi.jpg");
+   min-height: 107vh;
+   background-position: 85% 0%;
+   background-repeat: no-repeat;
+   margin-top: 3rem;
+   background-color:#f8f8f8;
+  }
+  #bmi-tekst {
+     margin-left: 10%;
+     margin-right: 52%;
+     text-align: center;
+
+  }
+  #opis {
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: 800;
+     font-size: 2rem;
+     display: inline-block;
+     margin-top: 13%;
+     margin-bottom: -0.4%;
+     text-align:center;
+     text-shadow:
+	1.5px 1.5px 0 #c63d2b;
+  }
+  #opis2 {
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 1.1rem;
+     font-weight: 250;
+     color: #2b8a52;
+     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+     text-decoration: underline 0.8% #c6c23f;
+     margin-top: 0%;
+  }
+
+  #title {
+   margin-top: 8%;
+   background-color: #c63d2b;
+   color: white;
+   -webkit-text-stroke: 1px #F8F8F8;
+  text-shadow: 0px 1px 4px #23430C;
+   margin-bottom: -1%;
+   width: 70%;
+   margin-left: 13%;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   border-radius: 5px;
+   height: 10vh;
+  }
+
+  #calculator {
+   background-color: white;
+   width: 70%;
+   height: 40vh;
+   margin-left: 13%;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   border-radius: 5px;
+  }
+
+  #result {
+     margin-top: 5%;
+     margin-bottom: 5%;
+     font-weight: bold;
+     color: rgb(48, 201, 125);
+     font-size: 1.2rem;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     display: inline-block;
+     font-weight: 800;
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+  }
+
+  .card {
+   all: unset;
+   border-radius: 20px;
+   background-color: #c63d2bc0;
+   color: white;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+   font-weight: 200;
+   height: 40px;
+   width: 150px;
+   margin: 0 8px 16px;
+   padding: 5px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.2s ease-in-out;
+   line-height: 24px;
+   position: relative;
+   left: 33%;
+ }
+ svg.material-icons {
+   height: 24px;
+   width: auto;
+ }
+
+ svg.material-icons:not(:last-child) {
+   margin-right: 5%;
+ }
+
+ .card-container .card:not(.highlight-card):hover {
+   transform: translateY(-3px);
+   box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+   background-color: #c63d2b;
+ }
+
+ .footer {
+  width: 100%;
+  height: 60px;
+  background-color: #21c790;
+  margin-top: -5%;
+}
+
+body {
+  background-color: #21c790;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 1s ease-out;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.fa:hover {
+  opacity: 0.8;
+  transform: translateY(-0.25rem);
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+.fa-facebook {
+  background: #9ceccd;
+  color: white;
+}
+.fa-twitter {
+  background: #9ceccd;
+  color: white;
+}
+.fa-instagram {
+  background: #9ceccd;
+  color: white;
+}
+.fa-youtube {
+  background: #9ceccd;
+  color: white;
+}
+#logoa {
+  position: relative;
+  top: -83%;
+  left: 80%;
+  width: 180px;
+}

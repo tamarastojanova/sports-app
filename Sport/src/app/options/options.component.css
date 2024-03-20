@@ -1,0 +1,141 @@
+.opcii {
+    background-color: #ffffff;
+    display: flex;
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#text4 {
+  margin-top: 5%;
+    font-size: 3.5em;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: -0.2rem;
+    font-weight: 1600;
+}
+
+#pic1 {
+    margin-left: -110%;
+    width: 22rem;
+    height: 26rem;
+    margin-top: 7%;
+    box-shadow: 0.05rem 0.05rem 3rem 0rem rgba(0, 0, 0, 0.308);
+}
+
+#pic2 {
+    width: 22rem;
+    height: 25rem;
+    margin-left: -60%;
+    margin-top: -25%;
+    box-shadow: 0.1rem 0.1rem 3rem 0rem rgba(0, 0, 0, 0.493);
+}
+
+#nabrojano h1 {
+    font-size: 2.3rem;
+}
+
+#nabrojano h3 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#nabrojano {
+    margin-left: 45rem;
+    margin-top: -45rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 45rem;
+    margin-top: 0.4rem;
+  }
+
+  .card {
+    all: unset;
+    border-radius: 5px;
+    background-color: #f14049;
+    height: 40px;
+    width: 150px;
+    margin: 0 8px 16px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    color: #ffffff;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
+
+  svg.material-icons {
+    height: 30px;
+    width: 30px;
+  }
+  .card-container .card:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
+  a:hover {
+    color: #ffffff;
+    background-color: #da000b;
+    text-decoration: none;
+  }
+  .card-container .card:not(.highlight-card) {
+    cursor: pointer;
+  }
+
+  .footer {
+    width: 100%;
+    height: 60px;
+    background-color: #21c790;
+  }
+  
+  body {
+    background-color: #21c790;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 1s ease-out;
+    border-radius: 50%;
+    margin-right: 2%;
+  }
+  
+  .fa:hover {
+    opacity: 0.8;
+    transform: translateY(-0.25rem);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    color: black;
+  }
+  
+  .fa-facebook {
+    background: #9ceccd;
+    color: white;
+  }
+  .fa-twitter {
+    background: #9ceccd;
+    color: white;
+  }
+  .fa-instagram {
+    background: #9ceccd;
+    color: white;
+  }
+  .fa-youtube {
+    background: #9ceccd;
+    color: white;
+  }
+  #logoa {
+    position: relative;
+    top: -83%;
+    left: 80%;
+    width: 180px;
+  }

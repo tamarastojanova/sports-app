@@ -1,0 +1,189 @@
+#text3 {
+    font-size: 4em;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+}
+h1{
+    font-size: 1.6rem;
+    position: absolute;
+    text-align: center;
+}
+  .container {
+    width: 100vw;
+    height: 200vh;
+    background-color: #e6e6e4;
+  }
+
+  .row1{
+      margin-left:7%;
+      margin-right:7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    height: 80vh;
+  }
+  .row2{
+    margin-left:7%;
+    margin-right:7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    height: 80vh;
+  }
+
+  .card-holder{
+    width: 25vw;
+    background-color: #e6e6e4;
+    height: 70vh;
+  }
+  .card-footer{
+    background: white;
+    width: 25vw;
+    height: 25vh;
+    margin-top: -1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1.2s;
+
+  }
+  .card:hover{
+    transform: translateX(-100%) 
+    rotateY(-180deg);
+  }
+  .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .front{
+    backface-visibility: hidden;
+    color: black;
+    text-decoration: underline 2px rgb(41, 175, 110);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    border: 3px solid rgb(41, 175, 110);
+  }
+.back{
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  border: 3px solid rgb(41, 175, 110);
+}
+  .card-header {
+    text-align: center;
+    background: black;
+    color: #fff;
+    width: 25vw;
+    height: 10vh;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-body {
+    width: 25vw;
+    height: 17vw; 
+  }
+  .btn{
+    width: 10vw;
+    text-decoration: none;
+    height: 5vh;
+  }
+  img{
+    width: 25vw;
+    height: 35vh;
+  }
+  @media screen and (max-width: 1000px) {
+    .card {
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .container {
+      width: 100%;
+    }
+
+    .heading {
+      padding: 20px;
+      font-size: 20px;
+    }
+
+    .card {
+      width: 80%;
+    }
+  }
+
+  h5 {
+      padding: 0%;
+      margin: 0%;
+      text-align: center;
+      font-size: 1rem;
+      margin-left: 2% ;
+      margin-right: 2% ;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    padding: 2vw;
+  }
+
+  .footer {
+    width: 100%;
+    height: 60px;
+    background-color: #21c790;
+    margin-top: -5%;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 1s ease-out;
+    border-radius: 50%;
+    margin-right: 2%;
+  }
+  
+  .fa:hover {
+    opacity: 0.8;
+    transform: translateY(-0.25rem);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    color: black;
+  }
+  
+  .fa-facebook {
+    background: #9ceccd;
+    color: white;
+  }
+  .fa-twitter {
+    background: #9ceccd;
+    color: white;
+  }
+  .fa-instagram {
+    background: #9ceccd;
+    color: white;
+  }
+  .fa-youtube {
+    background: #9ceccd;
+    color: white;
+  }
+  #logoa {
+    position: relative;
+    top: -83%;
+    left: 80%;
+    width: 180px;
+  }

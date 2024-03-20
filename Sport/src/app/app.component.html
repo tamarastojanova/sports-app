@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="toolbar" role="banner">
+  <img
+    width="100vw" height="55vh"
+    alt="sport-logo"
+    src = "../assets/img/logo1.png" style="margin-left: 4%;"/>
+
+    <div class="spacer"></div>
+
+    <ul style="margin-right: 5%;">
+      <li><a style="font-weight: 100; " routerLink="/home" routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page">HOME</a></li>
+      <li><a routerLink="/trainings" routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page">TRAININGS</a></li>
+      <li><a  routerLink="/options" routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page">OPTIONS</a></li>
+      <li><a  routerLink="/bmi" routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page">BMI</a></li>
+        <li><a  routerLink="/programs" routerLinkActive="activebutton"
+          ariaCurrentWhenActive="page">PROGRAMS</a></li>
+      <li><a  routerLink="/crew" routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page">CREW</a></li>
+      <li style="float:right"><a routerLink="/contact" routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page">CONTACT</a></li>
+    </ul>
+
+    </div>
+
+  <router-outlet></router-outlet>

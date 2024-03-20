@@ -1,0 +1,226 @@
+
+.content {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  svg.material-icons {
+    height: 24px;
+    width: auto;
+  }
+
+  svg.material-icons:not(:last-child) {
+    margin-right: 5%;
+  }
+
+  .card svg.material-icons path {
+    
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    all: unset;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 40px;
+    width: 150px;
+    margin: 0 8px 16px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+
+  .card-container .card:not(:last-child) {
+    margin-right: 0%;
+  }
+
+  .card.card-small {
+    height: 16px;
+    width: 168px;
+  }
+
+  .card-container .card:not(.highlight-card) {
+    cursor: pointer;
+  }
+
+  .card-container .card:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
+
+  .card-container .card:not(.highlight-card):hover .material-icons path {
+
+  }
+
+  .card.highlight-card {
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: auto;
+    min-width: 30%;
+    position: relative;
+  }
+
+
+  svg#rocket {
+    width: 80px;
+    position: absolute;
+    left: -10px;
+    top: -24px;
+  }
+
+  svg#rocket-smoke {
+    height: calc(100vh - 95px);
+    position: absolute;
+    top: 10px;
+    right: 180px;
+    z-index: -10;
+  }
+
+  a,
+  a:visited,
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #125699;
+  }
+  .u-section-1 {
+      background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/img/-min.jpg") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      width: 100%;
+      height: 140vh;
+      overflow-x: hidden;
+  }
+
+  .text1 {
+      margin: 370px auto 0;
+      font-size: 3.75rem;
+      font-weight: 900;
+      color: white;
+      text-align: center;
+      font-family: "Trebuchet MS";
+  }
+
+  .text2 {
+      color: white;
+      text-align: center;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 100;
+  }
+
+  /*Buttons*/
+
+  #button1 {
+      letter-spacing: 1px;
+      padding: 10px 31px 10px 30px;
+      color: white;
+      text-decoration: none;
+      background-color: #21c790;
+      border-radius: 20px;
+      margin-right: 1.5%;
+  }
+
+  .buttons12 {
+      margin-top: 5%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  }
+
+  #button2 {
+    letter-spacing: 1px;
+    padding: 10px 31px 10px 30px;
+    color: white;
+    text-decoration: none;
+    border:solid 1px white;
+    border-radius: 20px;
+  }
+
+  #button1:hover {
+      background-color: white;
+      color: #21c790;
+  }
+
+  #button2:hover {
+    background-color: white;
+    color: black;
+}
+
+#contact-button {
+  margin-top: 17%;
+    margin-left: 80%;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #21c790;
+  margin-top: -2.5%;
+}
+
+body {
+  background-color: #21c790;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 1s ease-out;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.fa:hover {
+  opacity: 0.8;
+  transform: translateY(-0.25rem);
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+.fa-facebook {
+  background: #9ceccd;
+  color: white;
+}
+.fa-twitter {
+  background: #9ceccd;
+  color: white;
+}
+.fa-instagram {
+  background: #9ceccd;
+  color: white;
+}
+.fa-youtube {
+  background: #9ceccd;
+  color: white;
+}
+#logoa {
+  position: relative;
+  top: -83%;
+  left: 80%;
+  width: 180px;
+}

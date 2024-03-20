@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sports-app-5a0fc": {
+      "hosting": {
+        "Sport": [
+          "sports-app-5a0fc"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sports-app-5a0fc"
+  }
+}
